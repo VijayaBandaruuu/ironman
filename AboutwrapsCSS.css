@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+}
+
+body{
+	background-color:black;
+}
+
+.main{
+	height: 150vh;
+	background-size: cover;
+}
+
+.navbar{
+	display: flex;
+}
+
+.logo{
+	margin-top: -10px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.list{
+	padding-top: 95px;
+	padding-left: 300px;
+}
+
+ul{
+	display: flex;
+}
+
+ul li{
+	color: whitesmoke;
+	list-style: none;
+	padding-right: 40px;
+}
+
+ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	transition: 0.6s ease-in-out;
+}
+
+ul li a:hover{
+	color: #f7800e;
+}
+
+.line h1{
+	margin-left: 40px;
+	color: grey;
+}
+
+.about h2{
+	animation-duration: 2s;
+	animation-name: slidein;
+}
+@keyframes slidein{
+	from{
+		margin-left: 30%;
+	}
+	to{
+		margin-left: 0%;
+	}
+}
+
+.about{
+	color: white;
+}
+
+.about h2{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 36px;
+	color: #f7800e;
+}
+
+.contents{
+	text-align: center;
+	padding: 20px;
+}
+
+.about p{
+	font-size: 22px;
+	text-align: center;
+}
+
+.secure{
+	margin: 26px;
+	padding-top: 5px;
+}
+
+.secure p{
+	margin-left: 40px;
+}
+
+.partners ul{
+	display: block;
+	list-style:none;
+	text-align: center;
+}
+
+.partners li:hover{
+	color: #f7800e;
+	transition: 0.4s ease-in-out;
+}
+
+.partners svg:hover{
+	color: #f7800e;
+	transform: translateY(-8px);
+	transition: 0.4s ease-in-out;
+}
+
+.secures p{
+	letter-spacing: 12px;
+	font-style: italic;
+}
+
+.secure span{
+	color:#f7800e;
+}
+
+.secure p{
+	color: white;
+	padding-bottom: 40px;
+}
+
+.secure1 h1{
+	color:#f7800e;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.secure1 p{
+	color: white;
+}
+
+.secure1{
+	margin: 20px;
+}
+
+.card-body{
+	background-color: black;
+}
+
+.card-title{
+	text-align: center;
+	color: #f7800e;
+}
+
+.card-text {
+	color: white;
+}
+
+.choose{
+	display: flex;
+	margin: 0px 6px;
+	height: 23%;
+}
+
+.card{
+	border-radius: 18px;
+	border: black;
+}
+
+.card:hover{
+	border: 2px solid #f7800e;
+}
+
+.social{
+	text-align: center;
+	word-spacing: 20px;
+	color: white;
+}
+
+.contact{
+	margin: 16px;
+}
+
+.contact h1{
+	text-align: center;
+	font-size: 50px;
+	color: #f7800e;
+	margin-bottom: 10px;
+}
+
+.contact p{
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: white;
+}
+
+svg{
+	color: white;
+}
+
+svg:hover{
+	color: #f7800e;
+	transform: translateY(-12px);
+	transition: 0.5s ease-in-out;
+}

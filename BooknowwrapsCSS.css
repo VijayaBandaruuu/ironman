@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+}
+body{
+	background-color:black;
+    }
+.main{
+	height: 100vh;
+	background-size: cover;
+}
+
+.navbar{
+	display: flex;
+}
+
+.logo{
+	margin-top: -10px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.list{
+	padding-top: 95px;
+	padding-left: 300px;
+}
+ul{
+	display: flex;
+}
+ul li{
+	color: whitesmoke;
+	list-style: none;
+	padding-right: 40px;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	transition: 0.6s ease-in-out;
+}
+ul li a:hover{
+	color: #f7800e;
+}
+
+
+.contact1{
+	min-height: 80vh;
+	text-align:center;
+}
+.contact1{
+	animation-duration: 1s;
+	animation-name: slidein;
+}
+@keyframes slidein{
+	from{
+		margin-left: 45%;
+	}
+	to{
+		margin-left: 0%;
+	}
+}
+.container{
+	max-width:800px;
+	margin:0 auto;
+}
+.container h1{
+	color: #f7800e;
+	padding: 50px;
+}
+.contact-wrapper{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 50px;
+}
+.contact-form{
+	text-align: left;
+}
+
+.contact-form h5{
+	font-size:15px;
+	margin-bottom: 20px;
+	color:whitesmoke;
+}
+
+.form-group{
+	margin-bottom: 20px;
+}
+
+input, textarea{
+	width:100%;
+	padding: 10px;
+	border-radius: 8px;
+	border: none;
+	background-color: #f8f9fa;
+	color:#333;
+}
+
+input:focus,
+textarea:focus{
+	outline:none;
+	box-shadow: 0 0 12px #bbb;
+}
+
+button{
+	display: inline-block;
+	padding: 12px 24px;
+	background-color: #f7800e;
+	border-radius: 9px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	border: none;
+	transition: -1s ease-in;
+	cursor: pointer;
+}
+
+button:hover{
+background-color: grey;	
+}
+
+.contact-info{
+	text-align: left;
+}
+.contact-info h3 i{
+	font-size: 25px;
+	margin-bottom: 20px;
+	color:#f7800e;
+}
+.contact-info h4 i{
+	color:#f7800e;
+}
+.contact-info p{
+	margin-bottom: 10px;
+	color:whitesmoke;
+}
+.contact-info i{
+	margin-right: 10px;
+}
+
+.partners ul{
+	display: block;
+	list-style:none;
+	text-align: center;
+}
+
+.partners li:hover{
+	color: #f7800e;
+	transition: 0.4s ease-in-out;
+}
+
+.partners svg:hover{
+	color: #f7800e;
+	transform: translateY(-8px);
+	transition: 0.4s ease-in-out;
+}
+
+.secures p{
+	letter-spacing: 12px;
+	font-style: italic;
+}
+
+.secure1 h1{
+	color:#f7800e;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.secure1 p{
+	color: white;
+}
+
+.secure1{
+	margin: 30px;
+}
+
+.social{
+	text-align: center;
+	word-spacing: 20px;
+	color: white;
+	padding-bottom: 40px;
+}
+
+.contact{
+	padding-top: 15px;
+}
+
+.contact h1{
+	text-align: center;
+	padding-block: 15px;
+	font-size: 50px;
+	color: #f7800e;
+}
+
+.contact p{
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: white;
+}
+
+svg{
+	color: white;
+}
+
+svg:hover{
+	color: #f7800e;
+	transform: translateY(-12px);
+	transition: 0.5s ease-in-out;
+}

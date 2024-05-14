@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+}
+
+body{
+	background-color:black;
+    }
+
+.main{
+	height: 150vh;
+	background-size: cover;
+}
+
+.navbar{
+	display: flex;
+}
+
+.logo{
+	margin-top: -10px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.list{
+	padding-top: 95px;
+	padding-left: 300px;
+	display: flex;
+}
+
+ul{
+	display: flex;
+}
+
+ul li{
+	color: whitesmoke;
+	list-style: none;
+	padding-right: 40px;
+}
+
+ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	transition: 0.6s ease-in-out;
+}
+
+ul li a:hover{
+	color: #f7800e;
+}
+
+.service h2{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 35px;
+	color: #f7800e;
+}
+
+.service p{
+	font-size: 22px;
+	color: white;
+}
+
+.buttondiv{
+	text-align: center;
+	margin-block: 0px;
+}
+
+.button{
+	padding: 5px 10px;
+	padding-bottom:10px ;
+	margin-block: 30px;
+	border-radius: 12px;
+	transition: 1s ease-in-out;
+	background-color: #f7800e;
+}
+
+.buttondiv a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+.container,p{
+	color: white;
+}
+.container h2{
+	box-shadow: 90%;
+	color: #f7800e;
+}
+
+.link a{
+	color: grey;
+	text-decoration: none;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.links:hover{
+	border: 2px solid #f7800e;
+}
+
+.links{
+	margin-block: 20px;
+	background-color: black;
+	border: black;
+	border-radius: 12px;
+}
+
+.cars img{
+	border-radius:25px;
+	float: right;
+}
+
+.social{
+	text-align: center;
+	word-spacing: 20px;
+	color: white;
+	padding-bottom: 40px;
+}
+
+svg:hover{
+	color: #f7800e;
+}
+
+.contact h1{
+	text-align: center;
+	padding-block: 30px;
+	font-size: 50px;
+	color: #f7800e;
+}
+
+.contact p{
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 25px;
+}
+
+.service  h2{
+	animation-duration: 2s;
+	animation-name: slidein;
+}
+@keyframes slidein{
+	from{
+		margin-left: 30%;
+	}
+	to{
+		margin-left: 0%;
+	}
+}
+
+.text1{
+	text-align: right;
+}
+.text2{
+	text-align: left;
+}
+.item_l{
+	display: flex;
+	align-content: right;
+}
+
+img{
+	border-radius: 15px;
+}
+
+.item_r{
+	display: flex;
+	align-content: right;
+}
+
+svg{
+	color: white;
+}
+
+svg:hover{
+	color: #f7800e;
+	transform: translateY(-12px);
+	transition: 0.5s ease-in-out;
+}
